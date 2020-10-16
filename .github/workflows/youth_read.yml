@@ -28,7 +28,7 @@ jobs:
         run: |
           npm install
                  
-      - name: '运行 【中青看点-文章阅读-54篇】'   
+      - name: '运行 【中青看点-文章阅读1-30篇】'   
         if: env.YOUTH_READ         
         run: |
           node Task/Youth_Read.js
